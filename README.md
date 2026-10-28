@@ -26,6 +26,7 @@ small projects where you're looking to reduce the BOM.
 
 <img src="images/chiquito_pinout.svg" width="800">
 
+*Image pinout is a simplification. Check the original datasheet for the [complete information](https://www.st.com/resource/en/datasheet/stm32c071g8.pdf)*
 ## Fabrication
 
 Production files are available in the [production](production/) folder.
@@ -67,3 +68,8 @@ firmware:
  
  - For using a ST-Link programmer, connect the it to the debugging pins located
    at the bottom of the board (`GND`, `SWDIO`, `SWDCLK` and `+3V3`).
+
+## Resources
+
+- [STM32C071G8 datasheet](https://www.st.com/resource/en/datasheet/stm32c071g8.pdf).
+- [STM32C071 reference manual](https://www.st.com/resource/en/reference_manual/rm0490-stm32c0-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf).
